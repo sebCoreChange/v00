@@ -30,7 +30,7 @@ git clone https://github.com/sebCoreChange/v00
 
 ## Övningar
 
-Vi tittar gemensamt på första make-over-monday övningen för att komma igång. 
+Vi tittar gemensamt på första make-over-monday övningen för att komma i gång. 
 https://data.world/makeovermonday/social-media-usage
 
 
@@ -38,7 +38,7 @@ https://data.world/makeovermonday/social-media-usage
 
 Vi har fått scriptet `sql_setup_v0.sql` som laddar in 2 tabeller i databasen `dovv`, se till att scriptet gå bra o köra och att tabellerna fylls med data.  
 Tabellerna som skapas är `call_events` samt `call_reason`.  
-**Events** har tidstämplen för när samtalet börjar och slutar.  
+**Events** har tidstämpeln för när samtalet börjar och slutar.  
 **Reason** har kopplingen mellan anledning och samtalet. 
 Vi har även fått filen `call_reason.json` som innerhåller uppslagen för anledning till att man har ringt in.  
 
@@ -46,8 +46,8 @@ Sätt upp en enkel powerbi rapport där som kan besvara följande frågor:
 - Vilken anledning var den vanligaste att man ringde in?
 - Vilken dag var det flest samtal? 
 - Vad var snitt tiden för ett samtal? 
-- Vilken vecko dag kommer det flest samtal? 
+- Vilken veckodag kommer det flest samtal? 
 - Vilken dag var den totala samtalstiden längst? 
-- Visa filter val för att kunna byta mellan de olika samtalstyperna. 
+- Visa filterval för att kunna byta mellan de olika samtalstyperna. 
 
 Välj själva om ni vill skapa transformeringarna i power bi eller i sql. 
