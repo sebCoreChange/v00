@@ -1,0 +1,21 @@
+{
+    "reasons": [
+      {
+        "number": 1,
+        "reason": "Technical Issues"
+      },
+      {
+        "number": 2,
+        "reason": "Billing and Account Inquiries"
+      },
+      {
+        "number": 3,
+        "reason": "Product Information and Assistance"
+      },
+      {
+        "number": 4,
+        "reason": "Service Requests and Upgrades"
+      }
+    ]
+  }
+  
