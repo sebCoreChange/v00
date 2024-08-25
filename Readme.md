@@ -11,7 +11,7 @@ För att kunna följa med i övningar så rekemnderas att ha följande installer
 Förutom power bi så är det inget kvar att använda något av de nämnda programen utan om man har någon egen preference att använda något annat så går det bra.  
 Men då har man eget ansvar att det kommer fungera och framför allt att det fortsatt går att samarbete med andra kursare. 
 
-## Övningar. 
+## Setup. 
 
 För att underlätta att dela power bi böcker så underlättare det om mappstrukturen är den samma för alla som gör övningar.
 Så rekomenderar att följa denna mappstruktur: 
@@ -27,41 +27,27 @@ Och sedan för att ladda ner ett repo från github.
 ```
 git clone https://github.com/sebCoreChange/v00 
 ```
-### CMD 
-Via teminalen testa följande o läs på om vilka functioner som finns. [MS command docs](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
-Läs på o testa följande: 
-- help 
-- cd
-- dir 
-- mkdir 
-- echo 
-- del 
-- curl  
-- move  
 
-På windows så finns det 2 st olika terminaler, cmd som är den klassiska men även powershell. 
-Alla de kommandon vi har tittat på finns det motsvarande på i powershell kan du hitta vilka?
+## Övningar
 
-1. Vad finns det för filer i den mappen jag står?
+Vi tittar gemensamt på första make-over-monday övningen för att komma igång. 
+https://data.world/makeovermonday/social-media-usage
 
-2. Hur kan man nagivera sig till övningsmappen?
-
-3. Hur kan jag flytta en fill till en annan map? 
 
 ### SQL & Power bi.
 
 Vi har fått scriptet `sql_setup_v0.sql` som laddar in 2 tabeller i databasen `dovv`, se till att scriptet gå bra o köra och att tabellerna fylls med data.  
 Tabellerna som skapas är `call_events` samt `call_reason`.  
 **Events** har tidstämplen för när samtalet börjar och slutar.  
-**Reason** har kopplingen mellan anledning till samtalet. 
+**Reason** har kopplingen mellan anledning och samtalet. 
 Vi har även fått filen `call_reason.json` som innerhåller uppslagen för anledning till att man har ringt in.  
 
 Sätt upp en enkel powerbi rapport där som kan besvara följande frågor: 
 - Vilken anledning var den vanligaste att man ringde in?
+- Vilken dag var det flest samtal? 
 - Vad var snitt tiden för ett samtal? 
 - Vilken vecko dag kommer det flest samtal? 
-- Vilken dag var det flest samtal? 
-- Vilken dag var den totala samtaltiden längst? 
+- Vilken dag var den totala samtalstiden längst? 
 - Visa filter val för att kunna byta mellan de olika samtalstyperna. 
 
-Välj själva om ni vill skapa transformeringarna i power bi eller i sql servern. 
+Välj själva om ni vill skapa transformeringarna i power bi eller i sql. 
