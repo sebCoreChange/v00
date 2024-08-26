@@ -20,8 +20,8 @@ Så rekomenderar att följa denna mappstruktur:
 Följande cmd kommande skapar upp mapp strukturen.
 ``` bash 
 cd c:/ 
-mkdir workspace/dovv 
-cd workspace/dovv
+mkdir workspace\dovv 
+cd workspace\dovv
 ```
 Och sedan för att ladda ner ett repo från github. 
 ```
